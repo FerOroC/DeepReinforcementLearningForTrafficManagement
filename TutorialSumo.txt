@@ -1,0 +1,21 @@
+Copy osmNetconvert.typ.xml from C:\Program Files (x86)\Eclipse\Sumo\data\typemap into the working folder.
+
+Copy randomTrip.py from C:\Program Files (x86)\Eclipse\Sumo\tools into the working directory.
+
+Open street maps, select a particular region, and expost as map.osm into the working directory.
+
+In a text editor, create a file that contains all the vehicle types that will be used during the simulation time. This file could be named as additional.type.xml and it should look like this:
+<additional>
+    <vTypeDistribution id="typedist1">
+        <vType id="pas" vClass="passenger" impatience="0" probability="0.85" laneChangeModel="SL2015" maxSpeed="10" speedFactor="normc(1,0.1,0.2,2)" lcSublane="100"/>
+        <vType id="amb" vClass="emergency" impatience="10" probability="0.15" laneChangeModel="SL2015" maxSpeed="20" speedFactor="2" color="1,0,0" lcStrategic="100" lcSpeedGain="100" lcSublane="100" lcPushy="1" lcImpatience="1"/>
+    </vTypeDistribution>
+ </additional>
+
+Run on CMD : netconvert --osm-files map.osm -o test.net.xml -t osmNetconvert.typ.xml --xml-validation never
+!Annotate the above so you clearly understand whats happening
+Comment, the above will convert osm file (called map.osm) into SUMO file (called test.net.xml)
+
+Run on CMD : polyconvert --osm-files map.osm --net-file test.net.xml -o map.poly.xml
+!Annotate the above so you clearly understand whats happening
+Comment, will create _ file )called map.poly.xml)
