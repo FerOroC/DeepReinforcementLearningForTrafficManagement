@@ -1,0 +1,3 @@
+Here is the working SUMO simulation of Bristol map imported from OSM. Still to do: 
+- Add Detectors into map to detect areas of high activity from map
+- Correct notes on SupportingFiles folder
