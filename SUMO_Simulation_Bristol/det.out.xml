@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/08/20 17:38:27 by Eclipse SUMO GUI Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="BristolNetwork.net.xml"/>
+        <route-files value="RouteFile.trips.xml"/>
+        <additional-files value="MapAdditionalFiles.poly.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="SimulationOutput.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="61583"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="500.00" id="det_0" nVehContrib="17" flow="122.40" occupancy="2.01" speed="8.55" harmonicMeanSpeed="8.48" length="5.00" nVehEntered="17"/>
+    <interval begin="500.00" end="1000.00" id="det_0" nVehContrib="12" flow="86.40" occupancy="1.61" speed="7.70" harmonicMeanSpeed="7.43" length="5.00" nVehEntered="12"/>
+    <interval begin="1000.00" end="1500.00" id="det_0" nVehContrib="1" flow="7.20" occupancy="0.13" speed="7.91" harmonicMeanSpeed="7.91" length="5.00" nVehEntered="1"/>
+    <interval begin="1500.00" end="2000.00" id="det_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2000.00" end="2500.00" id="det_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="2500.00" end="3000.00" id="det_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="3000.00" end="3341.00" id="det_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+</detector>
