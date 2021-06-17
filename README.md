@@ -16,6 +16,6 @@ For local installatoins, follow the instructions in: https://flow.readthedocs.io
 
 To train a particular agent, move to the flow directory and enter the following
 
-'''
+```
 python examples/train.py nameofagentandenvironmentfile
-'''
+```
