@@ -17,5 +17,13 @@ For local installatoins, follow the instructions in: https://flow.readthedocs.io
 To train a particular agent, move to the flow directory and enter the following
 
 ```
-python examples/train.py nameofagentandenvironmentfile
+python examples/train.py agentandenvironmentfile
 ```
+
+Within the agentandenvironmentfile, we would reference the road network file, an environment class, a configuration file, and the simulation parameters. Can be either a single agent, or a multi agent approach. The naming convention for the agentandenvironmentfile is: 
+
+```
+singleagent_(OR multiagent_)environment
+```
+
+The train.py file will automatically detect the singleagent or multiagent training approach depending on the name of the file. An example can be found in the file **singleagent_BusLaneController.py**. Regarding the urban road networks, their designs can be found in the **BusLaneNetwork.py**, **LondonGridNetwork.py**, and **BristolTriangle.py**. All controller files can be found in the flow framework repository.
