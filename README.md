@@ -8,7 +8,7 @@ C. Wu, A. Kreidieh, K. Parvate, E. Vinitsky, A. Bayen, "Flow: Architecture and B
 
 # Getting Started
 
-Windows not supported by certain packages; only Ubuntu, Linux. 
+Windows not supported by certain packages; only Linux. 
 
 For local installatoins, follow the instructions in: https://flow.readthedocs.io/en/latest/flow_setup.html#local-installation-of-flow, changing package versions where needed to meet dependencies. 
 
