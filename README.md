@@ -10,7 +10,7 @@ C. Wu, A. Kreidieh, K. Parvate, E. Vinitsky, A. Bayen, "Flow: Architecture and B
 
 Windows not supported by certain packages; only Linux. 
 
-For local installatoins, follow the instructions in: https://flow.readthedocs.io/en/latest/flow_setup.html#local-installation-of-flow, changing package versions where needed to meet dependencies. 
+For local installations, follow the instructions in: https://flow.readthedocs.io/en/latest/flow_setup.html#local-installation-of-flow, changing package versions where needed to meet dependencies. 
 
 # Training an Agent
 
